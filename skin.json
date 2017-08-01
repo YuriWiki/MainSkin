@@ -46,6 +46,9 @@
 				},
 				"css/wikiedittor-liberty.css": {
 					"media": "all"
+				},
+				"css/custom.css": {
+					"media": "all"
 				}
 			},
 			"position": "bottom"

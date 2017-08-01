@@ -287,7 +287,7 @@ class LibertyTemplate extends BaseTemplate
                                 <label for="lgremember">로그인 상태를 유지하기</label>
                             </div>
                             <input class="btn btn-success btn-block" type="submit" value="로그인" tabindex="4">
-                            <a href="/<?= $wgScriptPath; ?>index.php?title=<?= SpecialPage::getTitleFor('UserLogin', null); ?>&amp;type=signup&amp;returnto=<?= $title; ?>" tabindex="5" class="btn btn-primary btn-block" type="submit"><?php $this->msg('userlogin-joinproject'); ?></a>
+                            <a href="<?= $wgScriptPath; ?>/index.php?title=<?= SpecialPage::getTitleFor('UserLogin', null); ?>&amp;type=signup&amp;returnto=<?= $title; ?>" tabindex="5" class="btn btn-primary btn-block" type="submit"><?php $this->msg('userlogin-joinproject'); ?></a>
                             <?= Linker::linkKnown(
                                 SpecialPage::getTitleFor('PasswordReset', null),
                                 '비밀번호를 잊으셨나요?',
